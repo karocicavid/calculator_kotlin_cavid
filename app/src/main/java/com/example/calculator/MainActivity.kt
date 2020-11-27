@@ -121,7 +121,7 @@ class MainActivity : AppCompatActivity() {
                 textstring = secondvalue.toString()
                 screen.text = textstring
                 numexistance = true
-                zeros = true
+                zeros = false
                 signexist = false
                 operation = false
                 firstvalue = 0.0
