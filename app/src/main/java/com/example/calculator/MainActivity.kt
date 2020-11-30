@@ -107,6 +107,7 @@ class MainActivity : AppCompatActivity() {
                 signtag = 0
                 textstring = ""
                 screen.text = textstring
+                operation =false
             } else if (inputtag == 10 && operation == true) { //10
                 when (signtag) {
                     11 -> {
@@ -125,6 +126,7 @@ class MainActivity : AppCompatActivity() {
                 signexist = false
                 operation = false
                 firstvalue = 0.0
+                dotexist = false
             }
             else if(inputtag in 16..18 && secondvalue != 0.0 && firstvalue ==0.0 ){
                 when(inputtag) {
